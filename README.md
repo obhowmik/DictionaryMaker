@@ -9,7 +9,7 @@ This application was built for the purposes of helping me build my vocabulary an
 * Technology: QtDesigner GUI Tool, Python 3 and Sqlite
 
 # Images:
-![The Application Window](images/DictionaryPic.PNG)
+![The Application Window](images/DictionaryPic.png)
 
 # Files:
 | File Name | Description |
