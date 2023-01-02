@@ -53,6 +53,7 @@ class NatDictionary(NatDictionaryUI, NatDictionaryBase):
         #connect pb_savenote pushbutton to corresponding method
         self.pb_savenote.clicked.connect(self.savenote_button_clicked)
 
+    #Retreives the language information for each item in the database and compiles it into a combo
     def languPopul(self):
 
         #add the filter all value
@@ -68,6 +69,7 @@ class NatDictionary(NatDictionaryUI, NatDictionaryBase):
                 self.langu.addItem(str(val))
                 self.langu_f.addItem(str(val))
 
+    #Retreives the type information for each item in the database and compiles it into a combo
     def typeePopul(self):
         #add the filter all value
         self.typee_f.addItem("All")
@@ -82,6 +84,7 @@ class NatDictionary(NatDictionaryUI, NatDictionaryBase):
                 self.typee.addItem(str(val))
                 self.typee_f.addItem(str(val))
 
+    #Retreives the letter information for each item in the database and compiles it into a combo
     def lettrPopul(self):
         #add the filter all value
         self.lettr_f.addItem("All")
@@ -96,6 +99,7 @@ class NatDictionary(NatDictionaryUI, NatDictionaryBase):
                 self.lettr.addItem(str(val))
                 self.lettr_f.addItem(str(val))
 
+    #Retreives the class information for each item in the database and compiles it into a combo
     def cllasPopul(self):
         #add the filter all value
         self.cllas_f.addItem("All")
@@ -109,6 +113,8 @@ class NatDictionary(NatDictionaryUI, NatDictionaryBase):
             for j,val in enumerate(row): #pick comlumns one at a time, j = column no
                 self.cllas.addItem(str(val))
                 self.cllas_f.addItem(str(val))
+
+    #Retreives the grammar information for each item in the database and compiles it into a combo
     def grammPopul(self):
         #fetching and populating data
         cn.execute("SELECT gramm FROM gramm")
@@ -119,6 +125,7 @@ class NatDictionary(NatDictionaryUI, NatDictionaryBase):
             for j,val in enumerate(row): #pick comlumns one at a time, j = column no
                 self.gramm.addItem(str(val))
 
+    #Populates the main table with data
     def tablePopul(self):
 
         #delete all previous data 1st

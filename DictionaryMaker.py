@@ -11,7 +11,7 @@ sys.dont_write_bytecode = True
 path = os.path.dirname(os.path.abspath(__file__))
 
 MainWindowUI, MainWindowBase = uic.loadUiType(
-    os.path.join(path, 'olida.ui'))
+    os.path.join(path, 'Core.ui'))
 
 class MyWindowClass(MainWindowBase, MainWindowUI):
 
@@ -29,6 +29,7 @@ class MyWindowClass(MainWindowBase, MainWindowUI):
     def display(self,i):
         self.stack.setCurrentIndex(i)
 
+#Starts the main GUI window
 app = QApplication(sys.argv)
 myWindow = MyWindowClass(None)
 myWindow.setWindowTitle('DictionaryMaker')
