@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1082</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label_15">
+         <property name="text">
+          <string>Natural Dictionary</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_17">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>MESSAGE</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="msgl"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>PK</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="pykey"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_8">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>LANGUAGE</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="langu"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_12">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>TYPE</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="typee">
+         <item>
+          <property name="text">
+           <string>Word</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Idioms</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Phrasal Verb</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Slang</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_13">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>WORD</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="wordd"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_10">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>MEANING</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="meani">
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>LETTER</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="lettr">
+         <item>
+          <property name="text">
+           <string>A</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>B</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>C</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>D</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>E</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>F</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>G</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>H</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>I</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>J</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>K</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>L</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>M</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>N</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>O</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>P</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Q</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>R</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>S</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>T</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>U</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>V</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>W</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>X</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Y</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Z</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_16">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>CLASS</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="cllas">
+         <item>
+          <property name="text">
+           <string>Legal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Space</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Animal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Others</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pb_adda">
+         <property name="text">
+          <string>ADD</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pb_edit">
+         <property name="text">
+          <string>EDIT</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pb_clear">
+         <property name="text">
+          <string>CLEAR</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pb_delt">
+         <property name="text">
+          <string>DELETE</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLabel" name="label_19">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>EXAMPLE</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="examp">
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_20">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>TRICK</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="trick">
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="label_9">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>ROOT1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="root1"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_14">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>ROOT2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="root2"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>GRAMMER</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="gramm">
+         <item>
+          <property name="text">
+           <string>Later</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Noun</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Pronoun</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Verb</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Adverb</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Adjective</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>REMARKS</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="remks">
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Word Search:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="searchBar"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>Filter Condition</string>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="QLabel" name="label_11">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>LANGUAGE</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="langu_f"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_22">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>TYPE</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="typee_f"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>LETTER</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="lettr_f"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_21">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>CLASS</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="cllas_f"/>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>306</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="le_wordcount">
+          <property name="font">
+           <font>
+            <pointsize>15</pointsize>
+           </font>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pb_resettoall">
+          <property name="text">
+           <string>Reset To All</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pb_rfrh">
+          <property name="text">
+           <string>Refresh Table</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pb_savenote">
+          <property name="text">
+           <string>Save Note</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_8">
+       <item>
+        <widget class="QTableWidget" name="ttable"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="detls">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
